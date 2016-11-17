@@ -1,0 +1,312 @@
+canvas {
+        position : absolute;
+        top : 0%;
+        left : 0%;
+        border: 0% solid #9C9898;
+    z-index:0;
+   background :white;
+    }
+
+button {
+   position : absolute;
+    width:14.3%;
+         height:7.9%;
+         font-size:160%;
+}
+@keyframes ret {
+  from {
+width:5.7%;
+height:9%;
+   }to{
+margin-left:2.9%; 
+width:0%;
+height:9%;}
+}
+@keyframes ret1 {
+  from {
+width:0%;
+height:9%;
+   }to{
+
+
+width:5.7%;
+height:9%;}
+}
+@keyframes slidein {
+  from {
+    top:39.4%;
+    left:35.7%;
+  }
+}
+@keyframes slideinv {
+  from {
+    top:39.4%;
+    left:35.7%;
+  }
+}
+#CD {
+    width:3.6%;
+  height:4%;
+   z-index:1;
+   background :none;
+   border-radius:none;
+   border: none;
+}
+
+#tib {
+   position : absolute;
+  width:16.4%;
+  height:7.9%;
+  top:79.7%;
+  left:42.86%; 
+  margin:1%;
+background-color : #99FFCC;
+  border: 1% solid #008000;
+  font-size: 300%;
+  } 
+
+
+
+
+#buttonc {
+        top : 78.9%;
+        left : 0%;       
+}
+#buttond {
+        top : 78.9%;
+        left : 14.3%; 
+}
+#buttone {
+        top : 86.8%;
+        left : 7.1%; 
+}
+
+#buttonf {
+        top : 78.9%;
+        left : 71.4%;       
+}
+#buttong {
+        top : 78.9%;
+        left : 85.7%; 
+}
+#buttonh {
+        top : 86.8%;
+        left : 78.6%; 
+}
+
+#bboo{
+  position:absolute;
+  width:1200px;
+  height:1200px;
+  background-color:#F2F2F2;
+
+}
+
+#canv {
+  position:absolute;
+  width:100%;
+  height:60%;
+
+  top:9.5%;
+          border: 1px solid #9C9898;
+        border-radius:50%;
+  background-image:linear-gradient(160deg,#00CC00, #003300);
+	  z-index:1;
+}
+
+#J1c0a,#J1c1a,
+#J2c0a,#J2c1a,
+#J3c0a,#J3c1a,
+#J4c0a,#J4c1a,
+#J5c0a,#J5c1a,
+#J6c0a,#J6c1a,
+#J7c0a,#J7c1a,
+#J8c0a,#J8c1a,
+#J9c0a,#J9c1a,
+#J10c0a,#J10c1a,
+#F1c0a,#F1c1a,#F1c2a,#T1c0a,
+#R1c0a,#C1c0a{
+        position : absolute;
+        border: 1px solid #9C9898;
+        border-radius:10%;
+        animation-duration: 0.35s; 
+        animation-name: slidein; 
+        z-index:2;
+        height:9%;
+        width:5.7%; 
+}
+
+#dial{
+        position : absolute;
+        border: 1px solid #9C9898;
+        border-radius:10%;
+        z-index:5;
+        top : 20.3%;left : 13.5%;
+        background-color: rgba(0,255,0,0.3);
+                height:39.4%;
+                font-size:80%;
+                width:74.1%; 
+}
+
+
+
+#J1c0a,#J1c0b {top : 69.5%;left : 0%;}
+#J1c1a,#J1c1b {top : 69.5%;left : 5.7%;}
+#J2c0a,#J2c0b {top : 34.7%;left : 0%;}
+#J2c1a,#J2c1b {top : 34.7%;left : 5.7%;}
+#J3c0a,#J3c0b {top : 0%;left : 0%;}
+#J3c1a,#J3c1b {top : 0%;left : 5.7%;}
+#J4c0a,#J4c0b {top : 0%;left : 28.6%;}
+#J4c1a,#J4c1b {top : 0%;left : 34.3%;}
+#J5c0a,#J5c0b {top : 0%;left : 57.1%;}
+#J5c1a,#J5c1b {top : 0%;left : 62.9%;}
+#J6c0a,#J6c0b {top : 0%;left : 88.6%;}
+#J6c1a,#J6c1b {top : 0%;left : 94.3%;}
+#J7c0a,#J7c0b {top : 34.7%;left : 88.6%;}
+#J7c1a,#J7c1b {top : 34.7%;left : 94.3%;}
+#J8c0a,#J8c0b {top : 69.5%;left : 88.6%;}
+#J8c1a,#J8c1b {top : 69.5%;left : 94.3%;}
+#J9c0a,#J9c0b {top : 69.5%;left : 57.14%;}
+#J9c1a,#J9c1b {top : 69.5%;left : 62.85%;}
+#J10c0a,#J10c0b {top : 69.5%;left : 28.6%;}
+#J10c1a,#J10c1b {top : 69.5%;left : 34.3%;}
+
+#F1c0a,#F1c0b {top : 34.7%;left : 39.1%;}
+#F1c1a,#F1c1b {top : 34.7%;left : 44.9%;}
+#F1c2a,#F1c2b {top : 34.7%;left : 50.8%;}
+#T1c0a,#T1c0b {top : 34.7%;left : 59.3%;}
+#R1c0a,#R1c0b {top : 34.7%;left : 66%;}
+
+#C1c0a {top : 34.7%;left : 25%;
+  z-index:3; 
+          height:9%;
+        width:5.7%; 
+}
+
+#C1c1a{top : 34.7%;left : 25%;
+
+
+
+        position : absolute;
+        border: 1px solid #9C9898;
+        border-radius:10%;
+      z-index:2;
+        animation-name: none; 
+                 height:9%;
+        width:5.7%; 
+        }
+        
+#J1c0,#J1c1,
+#J2c0,#J2c1,
+#J3c0,#J3c1,
+#J4c0,#J4c1,
+#J5c0,#J5c1,
+#J6c0,#J6c1,
+#J7c0,#J7c1,
+#J8c0,#J8c1,
+#J9c0,#J9c1,
+#J10c0,#J10c1,#F1c0,#F1c1,#F1c2,#T1c0,#R1c0,#C1c0,#C1c1{
+visibility : hidden;
+           height:9%;
+        width:5.7%; 
+}
+
+
+
+
+#J1c0b,#J1c1b,
+#J2c0b,#J2c1b,
+#J3c0b,#J3c1b,
+#J4c0b,#J4c1b,
+#J5c0b,#J5c1b,
+#J6c0b,#J6c1b,
+#J7c0b,#J7c1b,
+#J8c0b,#J8c1b,
+#J9c0b,#J9c1b,
+#J10c0b,#J10c1b,
+#F1c0b,#F1c1b,#F1c2b,#T1c0b,
+#R1c0b{
+        border-radius:10%;
+         border: 1px solid #9C9898;
+        animation-duration: 0.25s; 
+        animation-name: ret; 
+        z-index:2;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+         height:9%;
+        width:5.7%; 
+}
+
+#J1j{top : 61.6%;left : 0%;}
+#J2j{top : 42.6%;left : 0%;}
+#J3j{top : 6.3%;left : 0%;}
+#J4j{top : 6.3%;left : 28.6%;}
+#J5j{top : 6.3%;left : 57.1%;}
+#J6j{top : 6.3%;left : 88.6%;}
+#J7j{top : 42.6%;left :88.6%;}
+#J8j{top : 61.6%;left :88.6%;}
+#J9j{top : 61.6%;left :57.1%;}
+#J10j{top : 61.6%;left :28.6%;}
+
+#J1m{top : 44.9%;left : 19.3%;}
+#J2m{top : 31.5%;left : 13.1%;}
+#J3m{top : 21.3%;left : 19.3%;}
+#J4m{top : 16.4%;left : 35.7%;}
+#J5m{top : 16.4%;left : 53.5%;}
+#J6m{top : 20.2%;left : 67.9%;}
+#J7m{top : 31.5%;left :75%;}
+#J8m{top : 43.0%;left :72%;}
+#J9m{top : 50.9%;left :53.6%;}
+#J10m{top : 50.9%;left :35.7%;}
+
+#J1ch{top : 69.5%;left : 11.4%;}
+#J2ch{top : 44.2%;left : 11.6%;}
+#J3ch{top : 0%;left : 11.6%;}
+#J4ch{top : 0%;left : 40.1%;}
+#J5ch{top : 0%;left : 68.7%;}
+#J6ch{top : 0%;left : 85%;}
+#J7ch{top : 30.4%;left :88.6%;}
+#J8ch{top : 71.0%;left :85%;}
+#J9ch{top : 71.0%;left :53.6%;}
+#J10ch{top : 71.0%;left :25%;}
+
+#J1j,#J2j,#J3j,#J4j,#J5j,
+#J6j,#J7j,#J8j,#J9j,#J10j{ 
+        position : absolute;
+        border: 1% solid #9C9898;
+        border-radius:10%;
+        z-index:3;
+           background :none;
+   border-radius:none;
+   border: none;
+         height:8.5%;
+        width:11.5%; 
+}
+
+#J1m,#J2m,#J3m,#J4m,#J5m,
+#J6m,#J7m,#J8m,#J9m,#J10m{ 
+        position : absolute;
+        border: 1px solid #9C9898;
+        border-radius:10%;
+        z-index:3;
+           background :none;
+   border-radius:none;
+    border: none;
+         height:8.5%;
+        width:11.5%; 
+}
+
+#J1ch,#J2ch,#J3ch,#J4ch,#J5ch,
+#J6ch,#J7ch,#J8ch,#J9ch,#J10ch{ 
+        position : absolute;
+        border: 1px solid #9C9898;
+        border-radius:50%;
+        z-index:3;
+           background :none;
+   border-radius:none;
+   border: none;
+           height:4.0%;
+        width:3.6%; 
+}
+
+ 

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <link href="pockerv000.css" rel="stylesheet" media="all" type="text/css"> 
+
+  <title>GaTPocker</title>
+</head>
+
+ 
+<body id="bboo" onload = "init()">
+
+
+    <img src="coeur.png" id="coeur" />
+    <img src="carreau.png" id="carreau" />  
+    <img src="pique.png" id="pique" />
+    <img src="trefle.png" id="trefle" />
+    
+    <img src="dos.png" id="dos" />
+    <img src="deal.png" id="deal" />
+    <img src="bleu.png" id="bleu" />
+    <img src="vert.png" id="vert" />  
+    <img src="gris.png" id="gris" />
+    <img src="jaune.png" id="jaune" />
+    <img src="rouge.png" id="rouge" />
+    
+
+   <canvas id="canv" width=1400 height=1000></canvas>
+   <canvas id="dial" width=1100 height=500></canvas>
+   <canvas id="J1c0" width=80 height=120></canvas>
+   <canvas id="J1c1" width=80 height=120></canvas>
+   <canvas id="J1j" width=160 height=100></canvas>
+    <canvas id="J1m" width=160 height=100></canvas>
+    <canvas id="J1ch" width=50 height=50></canvas>
+   <canvas id="J2c0" width=80 height=120></canvas>
+   <canvas id="J2c1" width=80 height=120></canvas>
+    <canvas id="J2j" width=160 height=100></canvas>
+       <canvas id="J2m" width=160 height=100></canvas>
+     <canvas id="J2ch" width=50 height=50></canvas>
+   <canvas id="J3c0" width=80 height=120></canvas>
+   <canvas id="J3c1" width=80 height=120></canvas>
+      <canvas id="J3j" width=160 height=100></canvas>
+         <canvas id="J3m" width=160 height=100></canvas>
+         <canvas id="J3ch" width=50 height=50></canvas>
+   <canvas id="J4c0" width=80 height=120></canvas>
+   <canvas id="J4c1" width=80 height=120></canvas>
+      <canvas id="J4j"width=160 height=100></canvas>
+         <canvas id="J4m" width=160 height=100></canvas>
+         <canvas id="J4ch" width=50 height=50></canvas>
+   <canvas id="J5c0" width=80 height=120></canvas>
+   <canvas id="J5c1" width=80 height=120></canvas>
+      <canvas id="J5j" width=160 height=100></canvas>
+         <canvas id="J5m" width=160 height=100></canvas>
+         <canvas id="J5ch" width=50 height=50></canvas>
+   <canvas id="J6c0" width=80 height=120></canvas>
+   <canvas id="J6c1" width=80  height=120></canvas>
+      <canvas id="J6j"width=160 height=100></canvas>
+            <canvas id="J6m"width=160 height=100></canvas>
+      <canvas id="J6ch" width=50 height=50></canvas>
+   <canvas id="J7c0" width=80 height=120></canvas>
+   <canvas id="J7c1" width=80 height=120></canvas>
+      <canvas id="J7j" width=160 height=100></canvas>
+         <canvas id="J7m" width=160 height=100></canvas>
+         <canvas id="J7ch" width=50 height=50></canvas>
+   <canvas id="J8c0" width=80 height=120></canvas>
+   <canvas id="J8c1" width=80 height=120></canvas>
+      <canvas id="J8j" width=160 height=100></canvas>
+         <canvas id="J8m" width=160 height=100></canvas>
+         <canvas id="J8ch" width=50 height=50></canvas>
+   <canvas id="J9c0" width=80 height=120></canvas>
+   <canvas id="J9c1" width=80 height=120></canvas>
+      <canvas id="J9j" width=160 height=100></canvas>
+         <canvas id="J9m" width=160 height=100></canvas>
+         <canvas id="J9ch" width=50 height=50></canvas>
+   <canvas id="J10c0" width=80 height=120></canvas>
+   <canvas id="J10c1" width=80 height=120></canvas>
+      <canvas id="J10j" width=160 height=100></canvas>
+         <canvas id="J10m" width=160 height=100></canvas>
+         <canvas id="J10ch" width=50 height=50></canvas>
+   <canvas id="F1c0" width=80 height=120></canvas>
+   <canvas id="F1c1" width=80 height=120></canvas>
+   <canvas id="F1c2" width=80 height=120></canvas>
+   <canvas id="T1c0" width=80 height=120></canvas>
+   <canvas id="R1c0" width=80 height=120></canvas>
+   <canvas id="C1c0" width=80 height=120></canvas>
+   <canvas id="C1c1" width=80 height=120></canvas>
+    <canvas id="CD" width=50 height=50></canvas>
+
+  
+
+   <button id="buttonc" onclick = "go2()">Joue</button>
+   <button id="buttond" onclick = "go3()">Redistribue</button>
+    <button id="buttone" onclick = "retlcar()">Montre les cartes</button>
+
+     <button id="buttonf" onclick = "jojou(0,'ch')">check</button>
+   <button id="buttong" onclick = "jojou(0,'re')">relance</button>
+    <button id="buttonh" onclick = "jojou(0,'co')">couche</button>
+   <input id="tib" class="tib" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' autofocus> </input>
+    
+
+</body>
+  
+
+    <script type="text/javascript" src="pockerv000.js"></script>
+   <script type="text/javascript" src="testpoint.js"></script>
+
+
+</html>
